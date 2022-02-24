@@ -1,0 +1,822 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Observations on the proposals of the City, to insure houses in case of fire</title>
+            <author>Fire Office (London, England)</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53170</idno>
+            <idno type="STC">Wing O105</idno>
+            <idno type="STC">ESTC R213578</idno>
+            <idno type="EEBO-CITATION">99825925</idno>
+            <idno type="PROQUEST">99825925</idno>
+            <idno type="VID">30317</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53170)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 30317)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1931:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Observations on the proposals of the City, to insure houses in case of fire</title>
+                  <author>Fire Office (London, England)</author>
+               </titleStmt>
+               <extent>4 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for the gentlemen of the Insurance Office on the back-side of the Royal-Exchange where these papers are to be had gratis,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1681]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Part of a controversy between the City of London and the Insurance Office for Houses; related documents are dated 1681.</note>
+                  <note>Reproduction of the original in the Goldsmith's Company Library, University of London, London, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Homeowner's insurance --  England --  Early works to 1800.</term>
+               <term>Insurance, Fire --  England --  London --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="observations">
+            <pb facs="tcp:30317:1"/>
+            <pb n="1" facs="tcp:30317:1"/>
+            <head>Obſervations on the Propoſals of the <hi>CITY,</hi> to Inſure Houſes in caſe of <hi>FIRE.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">W</seg>HEN Right is Invaded, all manner of Defence is lawful; Therefore, ſince the City of <hi>LONDON</hi> endeavour to Set Up the Inſuring of Houſes from <hi>Fire,</hi> by the <hi>Invention of Other Perſons,</hi> it is reaſonable to expect, that they who were Authors of the Deſigne, and are thereby <hi>Injured,</hi> will not forbear, to Publiſh thoſe Truths which may Leſſen their Adverſary, and be uſeful to Preſerve their Right, though by ſo doing, they ſhould ſeem to Re<g ref="char:EOLhyphen"/>flect on the Juſtice, Wiſdom, or Credit of the City of <hi>LONDON.</hi>
+            </p>
+            <p>For, that the <hi>Gentlemen of the Inſurance Office</hi> on the Backſide of the <hi>Royal Exchange,</hi> were the <hi>Firſt Inventors</hi> of this Deſigne, muſt be <hi>Granted by All;</hi> becauſe, the City would have otherwiſe Accepted that fair Propoſal that was at firſt made to the Right Honourable the LORD MAYOR, &amp;c. viz. <hi>To Refer it to Council, to determine this Original Right: And if it did appear [by any of the City-Journals] that they had formerly reſolved the ſame war of Effecting this Deſign, or could adde any New Thoughts that improved it, other than Leſſening the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, or Prolonging the Terms of Inſurance, which are no Eſſential differences, nor may perhaps be a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> vantage to the Inſured; The Gentlemen of the Inſurance Office did Promiſe, to deſiſt from Inſuring <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> City and Liberties.</hi>
+            </p>
+            <p>And though it may be true, that about the Year, 1670. Propoſals were made to the City about Inſuring Houſes from Fire, upon which a Committee was Choſen to Examine them; yet they were extreamly different from this Deſign, and ſo Impracticable in themſelves, that they were forced to lay them Aſide: And it is more than probable, that the City could never have Settled this Affair, had they not taken the <hi>Pattern</hi> from the <hi>Inſurance Office,</hi> ſince Ten Years have been ſpent without making the leaſt Progreſs in it.</p>
+            <p>Now, ſince the Undertaking of the City to Inſure Houſes, is but a Copy of <hi>Anothers Inven<g ref="char:EOLhyphen"/>tion,</hi> the beſt way to Diſcredit it, and ſhew its Imperfections, will be to Compare it with the Original.</p>
+            <p>The <hi>Method</hi> that was at firſt uſed to Settle the Inſurance Office on the <hi>Backſide of the Royal-Exchange,</hi> was thus, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Propoſitions</hi> for Inſuring Houſes were Publiſhed; wherein were ſet forth, the <hi>Premium, or Rates of Inſurance;</hi> the <hi>ſeveral Terms of Years;</hi> the <hi>Security of Ground-Rents, and manner of Settle<g ref="char:EOLhyphen"/>ment on Truſ<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>.</hi> And that General Satisfaction might be given, ſeveral dayes, upon Publick No<g ref="char:EOLhyphen"/>tice, were Ap<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ointed for thoſe that had Thoughts of Inſuring, to Meet at the Office, to Object and Debate <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat might be Advantagious or Diſadvantagious to the Deſign; and according to the Reſult of <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>oſe Debates, this Affair was Setled by Counſel choſen by thoſe that Subſcribed to Inſure.</p>
+            <p>This <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>xample the City would ſeem to Follow: Some things they have Imitated not now Ne<gap reason="illegible" resp="#PDCC" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>y, others Neceſſary they have Omitted: Some things they have Altered, which has much pr<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>iced their Deſigne. All which may be obſerved from theſe Four Particulars in their Printed Paper, <hi>viz.</hi>
+               <list>
+                  <item>I. <hi>Taking Subſcriptions.</hi>
+                  </item>
+                  <item>II. <hi>The Rates of Inſurance.</hi>
+                  </item>
+                  <item>III. <hi>The Terms of Years.</hi>
+                  </item>
+                  <item>IV. <hi>Their going at laſt to Council, to know whether they can Settle.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>AS to the <hi>Firſt, <hi>[Their taking Subſcriptions]</hi>
+               </hi> There can be no occaſion now; unleſs not under<g ref="char:EOLhyphen"/>ſtanding the Reaſons of the Deſign, they are careful to make a True Copy: For though the <hi>Firſt Inventors</hi> did take <hi>Subſcriptions,</hi> becauſe the Deſign being altogether New, they could no other<g ref="char:EOLhyphen"/>ways diſcover, whether their <hi>Propoſitions</hi> were Approved of, but by the Readineſs of ſeveral Gentle<g ref="char:EOLhyphen"/>men to <hi>Subſcribe.</hi> Yet ſince this Affair is Setled, and gives General Satisfaction, there is no occa<g ref="char:EOLhyphen"/>ſion of <hi>Subſcriptions:</hi> For if the City can in all reſpects follow <hi>This Pattern,</hi> they have reaſon to expect the <hi>Same Succeſs.</hi> But it not, Why ſhould men Subſcribe to their Diſadvantage? Eſpe<g ref="char:EOLhyphen"/>cially when their Houſes are not Inſured by Subſcribing; and it may probably be ſo Long, if ever, before the CITY Settle their Fund, that their <hi>Houſes may be Burnt before they are Inſured.</hi>
+            </p>
+            <p>Moreover, they may Inſure at the Office already Settled, and be Releaſed, when they find the CITY have made Better Proviſion for them. Therefore, there can be no Occaſion of <hi>Subſcripti<g ref="char:EOLhyphen"/>ons,</hi> unleſs thoſe Gentlemen of the Committee, that drive this Deſigne, believe they may eaſier engage men to <hi>Subſcribe, than to Pay their Money;</hi> and by perſwading the Court of Alder men, the Common-Council, the Officers, and other Perſons who have their Dependency on the City to Subſcribe; may, by their Number and Quality of Subſcribers, gain a Reputation to their Deſigne, which may ſerve as an Encouragement to many not thinking perſons, and ſupply the
+<pb n="2" facs="tcp:30317:2"/>Defects of their Settlement; and may ſeem a more effectual way than any Anſwer that can be riven to the Paper Entituled, <hi>An Enquiry, whether it is the Intereſt of the CITY to Inſure Houſes <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rom Fire?</hi> Though this way will be a kind of force, and therefore not laſting.</p>
+            <p>THe <hi>Second Obſervation Is,</hi> on the <hi>Rates or Premium of Inſurance, which is Fourty Eight Shillings per Cent. for Thirty One Years for Brick-Houſes, and double the Price for Timber; and ſo in pro<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ortion for Longer and Shorter Termes.</hi> This Rate, is <hi>Two Shillings</hi> in <hi>Fifty</hi> Cheaper than that of the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nſurance Office,</hi> which was probably Valued as a great Contrivance to draw Cuſtomers: The <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffects of ſuch Practices hath been already Obſerved in the Paper of <hi>Enquiry;</hi> which is, That it <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſt bring Loſs to the Undertakers, and at laſt Ruine the Deſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gne. So that the Managers of this <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffair, ſeem not ſo much to regard the Future Conſequence, as the moſt probable means to bring <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>reſent Money to the Chamber, and Places to Themſelves. But ſince the Gentlemen of the <hi>Inſu<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nce Office</hi> are under this Force, they are <hi>Reſolved,</hi> rather to Run the Hazard of Loſing, than <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat the City ſhould make Advantage by their Invention.</p>
+            <p>Therefore, that the Eaſineſs of the Terms may be no Encouragement to Inſure with the CITY, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey do <hi>Reſolve</hi> for the <hi>Future,</hi> to Set their Rates at <hi>Fourty Five Shillings</hi> and <hi>Ten Pence per <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ent.</hi> for Brick Houſes for <hi>Thirty One Years;</hi> which is <hi>Five Pence per Pound Rent,</hi> for Brick-Houſes for a Year, and Double the Rates for Timber; and to Diſcount by way of Purchaſe, <hi>viz.</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ive Years paid down for Eight Years Inſurance; Seven, for Twelve; Nine and a Half, for <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>wenty-One; And Eleven, for Thirty-One Years. Theſe <hi>Rates</hi> are Lower than the Cities, and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore agreeable to Practice, than their Table, which is after the <hi>Rate</hi> of <hi>Thirteen Years</hi> Purchaſe for <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ne and Thirty Years,</hi> and near <hi>Sixteen Years</hi> Purchaſe for <hi>Fifty-One Years:</hi> Prices never heard of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mong Purchaſers.</p>
+            <p>And do <hi>Further Declare,</hi> That they will Alwayes ſet their Price <hi>Vnder the City,</hi> though they do not intend to Alter any more, till they are Certain that the CITY can proceed, and have Settled their Fund.</p>
+            <p>This they think, they can Better Juſtifie the doing, than the CITY; becauſe their Security is <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o proportioned to a Number of Houſes, that whether the <hi>Premium</hi> make a Greater or Leſſer Sum, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t doth not Alter the Security to the Inſured: And if they Loſe by the Undertaking, it is their Own, and no Injury to Any.</p>
+            <p>But thoſe Citizens that Manage the Revenue of the City, are but Stewards for the reſt; and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> they (through <hi>Raſhneſs</hi> and want of <hi>Knowledge</hi>) Venture the <hi>Publick Revenue of the City,</hi> on a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>roject that brings Loſs, they prejudice the Whole Body of the Citizens: For if the <hi>Revenue of <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e City</hi> be Waſted, then the Charge of the Government muſt be Supported by Taxes.</p>
+            <p>And it is very probable, that there is no great Over-plus of Revenue belonging to the City, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore than is Neceſſary to Defray the Charge of the Government, the Truſt of the Orphants, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd the Repairs of the publick Places: For if there were, Why is Money borrowed at Intereſt, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hen no viſible Improvement is made by it? Or, why were the Fifteens ſo lately Raiſed, to Re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>air the publick Works of the City, which ought to be done out of the publick Revenue? <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſpecially ſince the Citizens in many Years before, had not been ſo Taxed?</p>
+            <p>THe <hi>Third Obſervation is,</hi> on the <hi>Terms and Length of Inſurance;</hi> The Office on the <hi>Back<g ref="char:EOLhyphen"/>ſide the Royal-Exchange,</hi> Inſures no Longer than for <hi>Thirty-One</hi> Years; the City Propoſe to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nſure for what <hi>Term Deſired, and for Ever.</hi> This perhaps was thought of as another Strata<g ref="char:EOLunhyphen"/>gem to bring in Cuſtomers; as if it might Ingage all thoſe that had the Inheritance of Houſes and long Terms; and beſides, might Raiſe the Value of the <hi>Premiums,</hi> and bring a greater Su<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o the Chamber.</p>
+            <p>They never Conſidered, That thoſe that <hi>Firſt Formed the Deſign,</hi> had probably thought <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his; and had it been Convenient and Advantagious, might Practice the ſame: And therefore <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nce they have taken this Deſign on the ſecond Hand, and upon Truſt, were very Adventurou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> much to Alter from their Pattern, unleſs they were provided to give Better Reaſons for thei<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> doing, than are to be Expected from them.</p>
+            <p>For, to <hi>Inſure for Ever,</hi> is to Spoil the whole Deſign; becauſe no Security can be good where all the Profit is at firſt Received, and the Loſs is Uncertain, and Continues for ever; fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Loſs being uncertain, the Security cannot be Proportioned: And where all the Profit is a firſt Received, there is no Intereſt obliged to take Care of the Deſign, ſo as to Pay a Loſs, and Pre<g ref="char:EOLhyphen"/>ſerve the Fund. So that, when ever the Loſs happens greater than the Annual Rent of the Secu<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ity, the Land muſt be Divided and Torn in Pieces, to Satisfy the Loſs: Whereas, when Hou<g ref="char:EOLhyphen"/>ſes are Inſured for no longer then <hi>Thirty-One</hi> Years (which is Sufficient to Comply with all Men Occaſions) theſe Terms will Exſpire; and the <hi>Premium</hi> that will Ariſe from the Reverſion, wil<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ga<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e the Intereſt of thoſe concerned in the Office, to Raiſe Moncy to Pay the Loſſes, and Pre<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rve the Fund intire; tho the Loſſes were greater than <hi>Ten</hi> Years Rent of the Fund. And <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>is was one of the great Arguments that was Uſed at the Setling this Affair, to ſhew the <hi>Ce<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>
+               </hi> of the Security, which no otherwiſe could have given Satisfaction</p>
+            <pb n="3" facs="tcp:30317:2"/>
+            <p>Therefore, ſhould Men be ſo Imprudent to Inſure their Houſes for Ever, this Corporation would have greater occaſion for an Act of Reſtraint, than the Spiritual Corporations heretofore have had for, though the Church and Colledges, by Granting long Leaſes, prejudiced their Succeſſors they left them the Old Rent: But theſe Gentlemen of the Committee, will not be ſo kind t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> their Succeſſors; for they would not only leave them without Reverſions, but Entail a perpetual Charge and Loſs upon the Corporation.</p>
+            <p>THe <hi>Laſt Obſervation is,</hi> that <hi>They are Reſolved, to Settle Lands and Ground-Rents of the Cities. to the Value of One Hundred Thouſand Pounds on Trustees, ſo as to be Eaſily Recovered,</hi> (and yet have not Diſcovered to the World where they lye) <hi>and to attend Counſel, to Know whether they an Settle them.</hi> This ought to have been the firſt Step, to have publiſhed a Particular of theſe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſtates, with the Opinion of Councel; that they are not already Appropriated and Charged ſor other Uſes: For the Lands of Corporations are generally charged both for Publick and Spe<g ref="char:EOLunhyphen"/>cial Uſes; ſuch as Repairing of Bridges, Maintaining of Aquaeducts, and Supporting other Pub<g ref="char:EOLhyphen"/>lick Works. Had they followed their Pattern in this Particular, they had prevented ſeveral Enquiries.</p>
+            <p>
+               <hi>Firſt,</hi> How the Lands of the Corporation can be Settled for the Benefit of private Perſons, and to pay their Loſſes, but that they muſt be ſtill liable to the firſt Truſt? So that whilſt the De<g ref="char:EOLhyphen"/>ſign brings Profit, the Settlement may ſeem Good; but when Loſſes happens, the firſt Settlement may take Place, to the Defeating of the Latter.</p>
+            <p>
+               <hi>Secondly,</hi> How can theſe Lands be Settled upon Truſtees, ſo, as when a Diſpute Ariſeth, the City muſt <hi>Not</hi> be made a Party, ſince they are more Entruſted for the City, than for any particular Perſon that ſhall Sue? It being not uſual for the Court of <hi>Chancery</hi> to bind any perſon by Decree without being Heard, eſpecially the principal party to the Suite? If ſo, their Settlement of <hi>Ground-Rents,</hi> is not ſo Good as their Seal: For this Settlement, is liable to the ſame difficulty of Reco<g ref="char:EOLhyphen"/>very, if there be a Diſpute, and is not ſo large a Security: For the Seal might be made to Affect all the Lands of the Corporation, were it not for the Difficulty of Suing <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> but the Settlement, will be Limited to a Part.</p>
+            <p>Now if the City muſt be made a Party upon all Suites, they muſt be Summoned; if they <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> fuſe to Appear; they Forfeit, or loſe Iſſue; which the Party hath no re<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>edy to Recover: And the Party cannot proceed in his Suite, Becauſe the City will not App<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>. So that thoſe Gentle<g ref="char:EOLhyphen"/>men of the Committee were extreamly Led out of the Way, in following the Pattern of a Settle<g ref="char:EOLhyphen"/>ment, thinking to Gain a Reputation by Offering an <hi>Hundred Thouſand Pounds Security;</hi> Where<g ref="char:EOLhyphen"/>as the Revenue of the City, muſt be Suppoſed to be Worth more, and the Seal Affects it all<g ref="char:punc">▪</g> For the Objection was not againſt the Ability of the City, but how to make them <hi>Willing</hi> or <hi>Force</hi> them to Pay.</p>
+            <p>This Difficulty in Suing the City, is Real; for if it were not, Thoſe many Perſons (whereo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſome of them have not Bread for their Families) would not have been ſo long without their Monyes, which they Lent to the Chamber upon Intereſt, and have Bond under the City Seal for their Payment: And yet ſome of theſe Bonds are of ſo <hi>Little Value,</hi> as to be <hi>Sold</hi> for <hi>Twelve-Pence</hi> in the Pound.</p>
+            <p>Therefore it were more Honourable and Juſt, for the City to Sell ſuch Lands as they can Diſpoſe of, to Pay thoſe Debts, than to Imploy them to Injure other Men: For ti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l then, How can it be Expected, That the Inſured ſhall have Better Juſtice, when a great <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oſs happens, than thoſe Perſons have had? For, Why may not the City hereafter give out, That this Project was Driven by a <hi>Particular Party,</hi> then <hi>Powerful,</hi> that Ingaged theſe Lands in a Deſign to their Prejudice, And therefore they have no Reaſon to pay the Loſs? As hath been formerly ſaid to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Creditors that Lent their Money, that a particular <hi>Faction</hi> of Men (though then the Majority) <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ent the Money to the <hi>Parliament;</hi> and therefore they have no Reaſon to Pay it?</p>
+            <p>
+               <hi>Thirdly,</hi> Suppoſe the City can Settle thoſe Lands, <hi>ſo, as to make them Eaſie to be Recovered,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow can they be <hi>Freed</hi> from the <hi>Incumbrances</hi> of theſe <hi>Debts? <hi>And bring Eaſie to Recover,</hi>
+               </hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow ſhall the Inſured be <hi>Secure,</hi> that <hi>Thoſe Creditors</hi> will not <hi>Seize Them?</hi> For ſome of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem being put in Mind, by the Cities Propoſals, that the Lands ſhall be Settled to Recover <hi>Without Trouble,</hi> are Reſolved to try what they can do to <hi>Get their Money:</hi> And therefore <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ve been Adviſed by Counſel to Sue; If the City refuſe to Appear, the Iſſues muſt be levyed <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the Land; which may be a diſpute in <hi>Chancery,</hi> whether it is not an Incumbrance from notice <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> in the caſe of Lands ſetled for payment of Debts, a <hi>Creditor</hi> ſhall charge them, by Filing a Bill it. <hi>Chancery;</hi> for Lands of Corporation are in the nature of Lands in Truſt? If to avoid this Diffi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>lty, the City ſhall Appear, then why ſhould they not obtain Judgment, and ſo <hi>Seize</hi> the Lands? <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd as far as they will go, take them to ſatisfie their Debts?</p>
+            <p>
+               <hi>Laſtly,</hi> What will become of their Settlement, if the City Forfeit their Charter? Whether the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ands of the Corporation do not Devolve on the Crown? Who then ſhall ſatisfie Loſſes, and Exti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>h the Fires?</p>
+            <p>By theſe Obſervations it may Appear, That the Gentlemen of the Committee did not well Un<g ref="char:EOLhyphen"/>derſtand
+<pb n="4" facs="tcp:30317:3"/>the Deſign they were about; for which they are not to be Blamed: For it is not Reaſonable to expect, that they ſhould ſo well (on a ſuddain) underſtand a Deſign, as the In<g ref="char:EOLhyphen"/>ventor of it, who had ſpent much Time and Study in the Contrivance; no more than they may be ſuppoſed to underſtand Law and Phyſick, as well as thoſe that have Studied thoſe Sciences. And it is as Reaſonable, that the City ſhould have the ſole Practice of Law and Phyſick, with<g ref="char:EOLhyphen"/>in the City and Liberties, becauſe it would be Profitable, as that they ſhould Inſure the Hou<g ref="char:EOLhyphen"/>ſes within thoſe Limits; and ſomething more Reaſonable, becauſe the Profit from Law and Phy<g ref="char:EOLhyphen"/>ſick would be more Certain.</p>
+            <p>But however, thoſe Gentlemen that intend to <hi>Inſure their Houſes,</hi> may perhaps conſider, That by Inſuring with the City, they Support the Conteſt; which though it bring Down the Prices of the Inſurance, yet in the End, muſt <hi>Ruine</hi> the Deſigne, and ſo will Loſe that Advantage (which by Encouraging the <hi>Firſt Inventors</hi>) they might probably expect from it: And that by Inſuring, they are not Serviceable to the City; for this Deſign (as the Committee have Contrived it) may produce ſome certain Places to themſelves, but Uncertain Profit, if not Loſs to the City: And be<g ref="char:EOLhyphen"/>ſides, by Inſuring with the City, they are Inſtrumental to take away the <hi>Right</hi> of the <hi>Firſt In<g ref="char:EOLhyphen"/>ventors;</hi> and as it were Club, to do that which every perſon (were it his private Concern) would <hi>Scorn</hi> to do.</p>
+            <p>
+               <hi>Theſe are to give Notice, to thoſe Gentlemen that have Inſured their Houſes, at the Office on the back-ſide the</hi> Royal-Exchange, <hi>If they will come to the Office, they ſhall be Repaid the Over-plus of their</hi> Premi<g ref="char:EOLhyphen"/>um, <hi>above the Rate of</hi> Forty-Five Shillings Ten Pence per Cent. <hi>for Brick, and</hi> Four Pound Ele<g ref="char:EOLhyphen"/>ven Shillings Eight pence <hi>for Timber, for</hi> Thirty-One <hi>Years. And ſo in proportion for Leſſer Terms, according to the Printed Table; Or, be made Allowance by addition of Term. And if they ſhall have further Occaſion to Alter their Rates, they will make all that have, or ſhall hereafter Inſure, equal Abatement.</hi>
+            </p>
+            <p>
+               <hi>And they do further give Notice, That they intend to Settle the Ground-Rents of</hi> Devonſhire Buildings <hi>the next Term; And then to make proviſion for</hi> Inſuring Chambers <hi>in the</hi> Inns of Court and Chan<g ref="char:EOLhyphen"/>cery: <hi>And have alſo provided another Parcel of Ground-Rents of</hi> Fifteen Hundred Pounds <hi>per</hi> An<g ref="char:EOLhyphen"/>num <hi>at</hi> Weſtminſter; <hi>which will make the Security to the Value of near</hi> Fourſcore Thouſand Pounds. <hi>Theſe they intend to Settle before the Number of Houſes (upon this Security) is Compleat; And to give publick Notice ſomtime before, with the Names of Council that are to ſettle the Conveyances, that all Perſons deſirous of Satisfaction in the Title, may reſort to them without Fees.</hi>
+            </p>
+            <p>
+               <hi>The Premium, or Rate of Inſurance for Brick-Houſes (the ſame to be reckoned Double for Timber) from One Pound</hi> per Annum <hi>Rent to an Hundred, for the Term of Thirty-One Years, or Under, which is Five Pence in the Pound-Rent for one Year, and to Diſcount by way of Purchaſe; that is, Five Years Paid down for Eight Years Inſurance; Seven, for Twelve; Nine and a Half, for Twenty-One; Eleven, for Thirty-One. For every Pound-Rent Inſured, Ten Pounds in Money is to be paid as often as the Houſe is Burnt down within the Term Inſured. This is Forty-Five Shillings Ten Pence for One Hundred Pounds for Thirty-One Years, which is Under the Cities Propoſal, Two Shillings Two Pence</hi> per Cent.</p>
+            <p>
+               <table>
+                  <row>
+                     <cell role="label">Pound Rent</cell>
+                     <cell role="label" cols="3">Inſured for 8. Years.</cell>
+                     <cell role="label" cols="3">Inſured for 12. Years.</cell>
+                     <cell role="label" cols="4">Inſured for 21. Years.</cell>
+                     <cell role="label" cols="3">Inſured for 31. Years.</cell>
+                     <cell role="label" cols="3">Houſes Burnt, Money Paid.</cell>
+                  </row>
+                  <row>
+                     <cell role="label">Lib.</cell>
+                     <cell role="label">
+                        <abbr>l</abbr>
+                     </cell>
+                     <cell role="label">ſh.</cell>
+                     <cell role="label">
+                        <abbr>d.</abbr>
+                     </cell>
+                     <cell role="label">
+                        <abbr>l.</abbr>
+                     </cell>
+                     <cell role="label">ſh.</cell>
+                     <cell role="label">
+                        <abbr>d.</abbr>
+                     </cell>
+                     <cell role="label">
+                        <abbr>l.</abbr>
+                     </cell>
+                     <cell role="label">ſh.</cell>
+                     <cell role="label">
+                        <abbr>d.</abbr>
+                     </cell>
+                     <cell role="label">ob.</cell>
+                     <cell role="label">
+                        <abbr>l.</abbr>
+                     </cell>
+                     <cell role="label">ſh.</cell>
+                     <cell role="label">
+                        <abbr>d.</abbr>
+                     </cell>
+                     <cell role="label">
+                        <abbr>l.</abbr>
+                     </cell>
+                     <cell role="label">ſh.</cell>
+                     <cell role="label">
+                        <abbr>d.</abbr>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>00</cell>
+                     <cell>02</cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>02</cell>
+                     <cell>11</cell>
+                     <cell>00</cell>
+                     <cell>03</cell>
+                     <cell>11</cell>
+                     <cell>0 ½</cell>
+                     <cell>00</cell>
+                     <cell>04</cell>
+                     <cell>07</cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>00</cell>
+                     <cell>04</cell>
+                     <cell>02</cell>
+                     <cell>00</cell>
+                     <cell>05</cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>07</cell>
+                     <cell>11</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                     <cell>09</cell>
+                     <cell>02</cell>
+                     <cell>20</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>3</cell>
+                     <cell>00</cell>
+                     <cell>06</cell>
+                     <cell>03</cell>
+                     <cell>00</cell>
+                     <cell>08</cell>
+                     <cell>09</cell>
+                     <cell>00</cell>
+                     <cell>1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </cell>
+                     <cell>10</cell>
+                     <cell>0<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </cell>
+                     <cell>00</cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                     </cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>0</cell>
+                     <cell>30</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>4</cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                     </cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                     </cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                     </cell>
+                     <cell>00</cell>
+                     <cell>
+                        <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                     </cell>
+                     <cell>08</cell>
+                     <cell>00</cell>
+                     <cell>15</cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                     <cell>1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </cell>
+                     <cell>0<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </cell>
+                     <cell>40</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>5</cell>
+                     <cell>00</cell>
+                     <cell>10</cell>
+                     <cell>05</cell>
+                     <cell>00</cell>
+                     <cell>14</cell>
+                     <cell>07</cell>
+                     <cell>00</cell>
+                     <cell>19</cell>
+                     <cell>09</cell>
+                     <cell>0 ½</cell>
+                     <cell>01</cell>
+                     <cell>02</cell>
+                     <cell>11</cell>
+                     <cell>50</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>6</cell>
+                     <cell>00</cell>
+                     <cell>12</cell>
+                     <cell>06</cell>
+                     <cell>00</cell>
+                     <cell>17</cell>
+                     <cell>06</cell>
+                     <cell>01</cell>
+                     <cell>03</cell>
+                     <cell>09</cell>
+                     <cell>00</cell>
+                     <cell>01</cell>
+                     <cell>07</cell>
+                     <cell>06</cell>
+                     <cell>60</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>7</cell>
+                     <cell>00</cell>
+                     <cell>14</cell>
+                     <cell>07</cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>05</cell>
+                     <cell>01</cell>
+                     <cell>07</cell>
+                     <cell>08</cell>
+                     <cell>0 ½</cell>
+                     <cell>01</cell>
+                     <cell>12</cell>
+                     <cell>01</cell>
+                     <cell>70</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>8</cell>
+                     <cell>00</cell>
+                     <cell>16</cell>
+                     <cell>08</cell>
+                     <cell>01</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                     <cell>01</cell>
+                     <cell>11</cell>
+                     <cell>08</cell>
+                     <cell>00</cell>
+                     <cell>01</cell>
+                     <cell>16</cell>
+                     <cell>08</cell>
+                     <cell>80</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>9</cell>
+                     <cell>00</cell>
+                     <cell>18</cell>
+                     <cell>09</cell>
+                     <cell>01</cell>
+                     <cell>06</cell>
+                     <cell>03</cell>
+                     <cell>01</cell>
+                     <cell>15</cell>
+                     <cell>07</cell>
+                     <cell>0 ½</cell>
+                     <cell>02</cell>
+                     <cell>01</cell>
+                     <cell>03</cell>
+                     <cell>90</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>10</cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>10</cell>
+                     <cell>01</cell>
+                     <cell>09</cell>
+                     <cell>02</cell>
+                     <cell>01</cell>
+                     <cell>19</cell>
+                     <cell>07</cell>
+                     <cell>00</cell>
+                     <cell>02</cell>
+                     <cell>05</cell>
+                     <cell>10</cell>
+                     <cell>100</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>20</cell>
+                     <cell>02</cell>
+                     <cell>01</cell>
+                     <cell>08</cell>
+                     <cell>02</cell>
+                     <cell>18</cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>19</cell>
+                     <cell>02</cell>
+                     <cell>00</cell>
+                     <cell>04</cell>
+                     <cell>11</cell>
+                     <cell>08</cell>
+                     <cell>200</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>30</cell>
+                     <cell>03</cell>
+                     <cell>02</cell>
+                     <cell>06</cell>
+                     <cell>04</cell>
+                     <cell>07</cell>
+                     <cell>06</cell>
+                     <cell>05</cell>
+                     <cell>18</cell>
+                     <cell>09</cell>
+                     <cell>00</cell>
+                     <cell>06</cell>
+                     <cell>17</cell>
+                     <cell>06</cell>
+                     <cell>300</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>40</cell>
+                     <cell>04</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                     <cell>05</cell>
+                     <cell>16</cell>
+                     <cell>08</cell>
+                     <cell>07</cell>
+                     <cell>18</cell>
+                     <cell>04</cell>
+                     <cell>00</cell>
+                     <cell>09</cell>
+                     <cell>03</cell>
+                     <cell>04</cell>
+                     <cell>400</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>50</cell>
+                     <cell>05</cell>
+                     <cell>04</cell>
+                     <cell>02</cell>
+                     <cell>07</cell>
+                     <cell>05</cell>
+                     <cell>10</cell>
+                     <cell>09</cell>
+                     <cell>17</cell>
+                     <cell>11</cell>
+                     <cell>00</cell>
+                     <cell>11</cell>
+                     <cell>09</cell>
+                     <cell>02</cell>
+                     <cell>500</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>60</cell>
+                     <cell>06</cell>
+                     <cell>05</cell>
+                     <cell>00</cell>
+                     <cell>08</cell>
+                     <cell>15</cell>
+                     <cell>00</cell>
+                     <cell>11</cell>
+                     <cell>17</cell>
+                     <cell>06</cell>
+                     <cell>00</cell>
+                     <cell>13</cell>
+                     <cell>15</cell>
+                     <cell>00</cell>
+                     <cell>600</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>70</cell>
+                     <cell>07</cell>
+                     <cell>05</cell>
+                     <cell>10</cell>
+                     <cell>10</cell>
+                     <cell>04</cell>
+                     <cell>02</cell>
+                     <cell>13</cell>
+                     <cell>17</cell>
+                     <cell>01</cell>
+                     <cell>00</cell>
+                     <cell>16</cell>
+                     <cell>00</cell>
+                     <cell>10</cell>
+                     <cell>700</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>80</cell>
+                     <cell>08</cell>
+                     <cell>06</cell>
+                     <cell>08</cell>
+                     <cell>11</cell>
+                     <cell>13</cell>
+                     <cell>04</cell>
+                     <cell>15</cell>
+                     <cell>16</cell>
+                     <cell>08</cell>
+                     <cell>00</cell>
+                     <cell>18</cell>
+                     <cell>06</cell>
+                     <cell>08</cell>
+                     <cell>800</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>90</cell>
+                     <cell>09</cell>
+                     <cell>07</cell>
+                     <cell>06</cell>
+                     <cell>13</cell>
+                     <cell>02</cell>
+                     <cell>06</cell>
+                     <cell>17</cell>
+                     <cell>16</cell>
+                     <cell>03</cell>
+                     <cell>00</cell>
+                     <cell>20</cell>
+                     <cell>12</cell>
+                     <cell>06</cell>
+                     <cell>900</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+                  <row>
+                     <cell>100</cell>
+                     <cell>10</cell>
+                     <cell>08</cell>
+                     <cell>04</cell>
+                     <cell>14</cell>
+                     <cell>11</cell>
+                     <cell>08</cell>
+                     <cell>19</cell>
+                     <cell>15</cell>
+                     <cell>10</cell>
+                     <cell>00</cell>
+                     <cell>22</cell>
+                     <cell>18</cell>
+                     <cell>04</cell>
+                     <cell>1000</cell>
+                     <cell>00</cell>
+                     <cell>00</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>London,</hi> Printed for the Gentlemen of the <hi>Inſurance Office</hi> on the Back-ſide of the <hi>Royal-Exchange,</hi> where theſe Papers are to be had <hi>Gratis,</hi> 1681.</p>
+            <pb facs="tcp:30317:3"/>
+         </div>
+      </back>
+   </text>
+</TEI>
